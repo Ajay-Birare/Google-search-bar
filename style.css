@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato:wght@400;700&family=PT+Sans&family=Rajdhani:wght@300&family=Tenor+Sans&family=Ubuntu+Condensed&family=Ubuntu:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+ 
+  * {
+      box-sizing: border-box;
+  }
+ .navbar{
+    border: 2px solid black;
+    padding: 30px;
+    background-color:red;
+ }
+
+ 
+ .youtube {
+     text-align: center;
+ }
+ body{
+        /* background-color: #673ab7; */
+background-image: linear-gradient(to right top, #3fa19f, #0193a5, #0084a9, #0073a8, #31609f); }
+
+ li {
+     float: left;
+     list-style-type: none;
+     text-align: center;
+     /* justify-content: baseline; */
+
+     /* border: 1px solid black; */
+     margin-left: 10px;
+
+ }
+ li:hover{
+    background-color: #5466db;
+    border-radius: 10px;
+    
+ }
+ img{
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    /* box-shadow: 1px 2px 4px 10px red; */
+ }
+ figcaption{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:small ;
+    font-weight: bold;
+ }
+ .links{
+    margin-top: 0px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    /* border: 1px solid black; */
+ }
+
+
+
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-wrap: wrap;
+     flex-direction: column;
+    /* border: 1px solid black; */
+    height: 700px;
+ }
+ .google{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight:bold;
+    color: white;
+ }
+ .searchbar{
+      /* padding: 100px; */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      /* flex-wrap: wrap; */
+      /* border: 1px solid black; */
+      width: 100%;
+ }
+.input{
+    padding: 15px;
+    width: 9000px;
+    border-radius: 25px;
+    border: 1PX solid black;
+   /* margin-left: 10px ;  */
+}
+.text{
+    /* margin-left: 10px; */
+    /* margin-right: 100px; */
+    width: 600px;
+}
+.submit{
+    /* visibility: hidden/; */
+    display: none;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
