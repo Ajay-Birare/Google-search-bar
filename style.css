@@ -11,7 +11,16 @@
  }
  .firstpart a,.secondpart a {
    color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
    
+ }
+ .firstpart a:hover,.secondpart a:hover{
+   border-bottom: 2px solid white;
+ }
+ 
+ .container a{
+   text-decoration-line:none ;
  }
 .firstpart ul{
    display: flex;
@@ -35,11 +44,16 @@
 }
 .secondpart img{
    position: absolute;
-   right: 123px;
+   right: 135px;
    /* margin-left: 5px; */
 }
+.secondpart .img:hover ,.secondpart .img a:hover{
+   background-color: white;
+   color: black;
+}
 .img{
-   border: 1px solid black;
+   border: 1px solid rgb(214, 89, 241);
+   box-shadow: 1px 1px 5px white;
    /* padding-left:30px ;
    padding-top:1px ; */
    padding: 5px 20px;
@@ -89,7 +103,7 @@ background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);
  /* ::placeholder{
    color: black;
  } */
- li:hover{
+ .li:hover{
     background-color: #5466db;
     border-radius: 10px;
     
@@ -123,7 +137,7 @@ background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);
     justify-content: center;
      flex-wrap: wrap;
      flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 700px;
  }
  .google{
