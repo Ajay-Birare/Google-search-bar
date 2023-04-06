@@ -9,15 +9,72 @@
     padding: 30px;
     background-color:red;
  }
+ .firstpart a,.secondpart a {
+   color: white;
+   
+ }
+.firstpart ul{
+   display: flex;
+   flex-direction: row;
+   /* border: 1px solid black; */
+   padding: 20px;
+   /* justify-content: flex-start; */
+   /* justify-content: space-between; */
+   gap: 25px;
+   position: absolute;
+   top: 10px;
+   left: 20px;
+   width: 50%;
+   flex-wrap: wrap;
 
- 
+   /* align-items: start; */
+}
+.secondpart a{
+   /* position: absolute; */
+   /* top: 2px; */
+}
+.secondpart img{
+   position: absolute;
+   right: 123px;
+   /* margin-left: 5px; */
+}
+.img{
+   border: 1px solid black;
+   /* padding-left:30px ;
+   padding-top:1px ; */
+   padding: 5px 20px;
+   /* padding-bottom: 0px; */
+   border-radius: 20px;
+   /* text-align: center; */
+}
+.img a{
+   margin-left: 20px;
+   /* margin-top: 0px; */
+}
+.secondpart ul{
+   display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      /* border: 1px solid black; */
+      padding: 20px;
+      justify-content: flex-end;
+      /* align-items: center; */
+      /* justify-content: baseline; */
+      gap: 25px;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      width: 40%;
+} 
  .youtube {
      text-align: center;
  }
  body{
         /* background-color: #673ab7; */
 /* background-image: linear-gradient(to right top, #3fa19f, #0193a5, #0084a9, #0073a8, #31609f); } */
-background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);}
+background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);
+/* background-image: linear-gradient(to top right,#5B146F,#FF009C); */
+}
 
  li {
      float: left;
@@ -29,6 +86,9 @@ background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);}
      margin-left: 10px;
 
  }
+ /* ::placeholder{
+   color: black;
+ } */
  li:hover{
     background-color: #5466db;
     border-radius: 10px;
@@ -63,7 +123,7 @@ background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);}
     justify-content: center;
      flex-wrap: wrap;
      flex-direction: column;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 700px;
  }
  .google{
@@ -105,4 +165,6 @@ background-image: linear-gradient(to left top,#AEBAF8 1%,#9600FF);}
 input::placeholder{
     padding-left: 10px;
 }
+
+
 
